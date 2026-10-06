@@ -199,6 +199,14 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .article figure{margin:1.6em 0}
 .article figure img{border-radius:12px}
 .article figcaption{font-size:13px;color:var(--muted);margin-top:7px;text-align:center}
+.article figure.map svg{width:100%;max-width:520px;height:auto;display:block;margin:0 auto;border-radius:12px;border:1px solid var(--line)}
+.m-road{stroke:#cfc6b4;stroke-width:9;stroke-linecap:round}.m-road.thin{stroke-width:5}
+.m-road-lbl{font:600 10px/1 system-ui,sans-serif;fill:#8f8373;letter-spacing:.04em}
+.m-area{font:700 12px/1 system-ui,sans-serif;fill:#6b6052}
+.m-pin{fill:#b23a2d;stroke:#fff;stroke-width:2}.m-num{font:700 12px/1 system-ui,sans-serif;fill:#fff}
+.m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
+.m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
+.m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -262,6 +270,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <a href="/ru/recoleta-cemetery-self-guided-walk/">Маршрут по лабиринту без гида</a>
 <a href="/ru/recoleta-cemetery-guided-vs-self-guided/">Экскурсия, аудиогид или сами</a>
 <a href="/ru/best-time-to-visit-recoleta-cemetery/">Когда лучше идти</a>
+<a href="/ru/things-to-do-in-recoleta/">Чем заняться в Реколете</a>
 <a class="all" href="/ru/guides/">Все гиды &rarr;</a>
 </div></details>
 <nav class="lang"><a href="/guides/">EN</a><a href="/fr/guides/">FR</a><a href="/de/guides/">DE</a><a href="/es/guides/">ES</a><a href="/it/guides/">IT</a><a href="/pt/guides/">PT</a><a href="/pl/guides/">PL</a><a class="on" href="/ru/guides/">RU</a></nav>
@@ -282,13 +291,13 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <a class="gcard" href="/ru/recoleta-cemetery-self-guided-walk/"><img src="../../img/lane-800.webp" width="800" height="500" loading="lazy" alt="Маршрут по лабиринту без гида"><div class="b"><h3>Маршрут по лабиринту без гида</h3><p>22 остановки от портика до дальних аллей — в правильном порядке.</p></div></a>
 <a class="gcard" href="/ru/recoleta-cemetery-guided-vs-self-guided/"><img src="../../img/christ-800.webp" width="800" height="500" loading="lazy" alt="Экскурсия, аудиогид или сами"><div class="b"><h3>Экскурсия, аудиогид или сами</h3><p>Сколько стоит каждый формат, что вы получаете и какой подходит именно вам.</p></div></a>
 <a class="gcard" href="/ru/best-time-to-visit-recoleta-cemetery/"><img src="../../img/angel-800.webp" width="800" height="500" loading="lazy" alt="Когда лучше идти"><div class="b"><h3>Когда лучше идти</h3><p>Почему важны 9:00, когда приезжают автобусы с группами и как сезоны здесь перевёрнуты.</p></div></a>
+<a class="gcard" href="/ru/things-to-do-in-recoleta/"><img src="../../img/basilica-800.webp" width="800" height="500" loading="lazy" alt="Чем заняться в Реколете"><div class="b"><h3>Чем заняться в Реколете</h3><p>Базилика, бесплатный музей изящных искусств, Floralis Genérica, ярмарка выходного дня и La Biela — с картой и двумя планами на полдня.</p></div></a>
 </div>
 <div class="gcat">Скоро</div>
 <div class="gcards">
 <div class="gcard soon"><img src="../../img/rufina-600.webp" width="800" height="500" loading="lazy" alt="Легенды кладбища Реколета"><div class="b"><h3>Легенды кладбища Реколета</h3><p>Руфина Камбасерес, Лилиана и её пёс, Давид Аллено — что подтверждено документами, а что нет.</p><span class="tag">Скоро</span></div></div>
 <div class="gcard soon"><img src="../../img/skull-800.webp" width="800" height="500" loading="lazy" alt="Надгробное искусство и символы"><div class="b"><h3>Надгробное искусство и символы</h3><p>Ар-нуво, неоготика, ар-деко — и шпаргалка по символам на дверях.</p><span class="tag">Скоро</span></div></div>
 <div class="gcard soon"><img src="../../img/rooftops-800.webp" width="800" height="500" loading="lazy" alt="Как добраться до кладбища Реколета"><div class="b"><h3>Как добраться до кладбища Реколета</h3><p>Subte, colectivo, такси или пешком из центра.</p><span class="tag">Скоро</span></div></div>
-<div class="gcard soon"><img src="../../img/basilica-800.webp" width="800" height="500" loading="lazy" alt="Чем заняться в Реколете"><div class="b"><h3>Чем заняться в Реколете</h3><p>Базилика, музей MNBA, Floralis Genérica, ярмарка выходного дня и кафе La Biela.</p><span class="tag">Скоро</span></div></div>
 </div>
 <p style="margin-top:36px"><a href="/ru/">&larr; Назад к полному гиду по кладбищу Реколета</a></p>
 </div>
