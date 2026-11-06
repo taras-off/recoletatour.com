@@ -207,6 +207,16 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.chips span{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--ink)}
+.tb-banner{display:flex;gap:18px;align-items:center;border:2px solid #0ea2e6;background:#f2f9fd;border-radius:12px;padding:16px 18px;margin:1.6em 0}
+.tb-banner img{width:132px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto}.tb-banner h3{margin:0 0 6px;font-size:19px}.tb-banner p{margin:0 0 12px;font-size:15px}.tb-banner .btn{margin:0}
+@media(max-width:560px){.tb-banner{flex-direction:column;align-items:flex-start}.tb-banner img{width:100%;height:150px}}
+.article .grid.why3>div,.article .grid.cmp3>div{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.article .grid.why3 h3,.article .grid.cmp3 h3{margin:0 0 8px;font-size:17px}.article .grid.why3 p{margin:0;font-size:15px}
+.article .grid.cmp3 ul{margin:0 0 12px;padding-left:18px;font-size:15px}.article .grid.cmp3 .hi{background:#f2f9fd;border-color:#0ea2e6}.article .grid.cmp3 .btn{margin:0}
+.article ol.steps{counter-reset:s;list-style:none;padding:0}.article ol.steps li{counter-increment:s;position:relative;padding:0 0 0 44px;margin:0 0 12px}.article ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--brand,#0ea2e6);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.article ul.trust{list-style:none;padding:0}.article ul.trust li{padding:6px 0 6px 28px;position:relative}.article ul.trust li::before{content:"\2713";position:absolute;left:0;color:#0ea2e6;font-weight:700}
+.article p.note{background:var(--soft);border-left:3px solid #0ea2e6;padding:10px 14px;border-radius:0 8px 8px 0;font-size:15px}
+.r-lane{stroke:#e4dccb;stroke-width:1.5}.r-path{fill:none;stroke:#b23a2d;stroke-width:3;stroke-dasharray:7 5;stroke-linejoin:round}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -264,7 +274,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="nav-wrap">
 <details class="menu"><summary>Guias <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 <div class="dropdown">
+<a href="/pt/recoleta-cemetery-self-guided-walking-tour/">Tour por conta própria com o audioguia</a>
 <a href="/pt/evita-tomb/">Túmulo de Eva Perón: como encontrar</a>
+<a href="/pt/recoleta-cemetery-architecture/">Arte funerária &amp; símbolos</a>
+<a href="/pt/recoleta-cemetery-history/">História do cemitério</a>
 <a href="/pt/recoleta-cemetery-legends/">As lendas do Cemitério da Recoleta</a>
 <a href="/pt/famous-graves-recoleta-cemetery/">Quem está enterrado aqui: os túmulos famosos</a>
 <a href="/pt/recoleta-cemetery-tickets/">Ingressos, preço &amp; horários</a>
@@ -287,7 +300,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="wrap" style="padding:40px 20px 60px">
 <div class="gcat">Publicados</div>
 <div class="gcards">
+<a class="gcard" href="/pt/recoleta-cemetery-self-guided-walking-tour/"><img src="../../img/lane-800.webp" width="800" height="500" loading="lazy" alt="Tour por conta própria com o audioguia"><div class="b"><h3>Tour por conta própria com o audioguia</h3><p>Recoleta por conta própria: 22 histórias num mapa offline, sem grupo, sem horário — como funciona o audioguia TouringBee e quanto custa.</p></div></a>
 <a class="gcard" href="/pt/evita-tomb/"><img src="../../img/evita-plaque-800.webp" width="800" height="500" loading="lazy" alt="Túmulo de Eva Perón: como encontrar"><div class="b"><h3>Túmulo de Eva Perón: como encontrar</h3><p>Onde fica o jazigo Duarte, o que você vai ver e a jornada de 24 anos do corpo dela.</p></div></a>
+<a class="gcard" href="/pt/recoleta-cemetery-architecture/"><img src="../../img/skull-800.webp" width="800" height="500" loading="lazy" alt="Arte funerária &amp; símbolos"><div class="b"><h3>Arte funerária &amp; símbolos</h3><p>Os quatro estilos, as surpresas egípcias e pré-hispânicas e um decodificador para as corujas, ampulhetas e serpentes das portas.</p></div></a>
+<a class="gcard" href="/pt/recoleta-cemetery-history/"><img src="../../img/entrance-800.webp" width="800" height="500" loading="lazy" alt="História do cemitério"><div class="b"><h3>História do cemitério</h3><p>Da horta dos frades, em 1732, à cidade dos mortos: 1822, 1863, 1871, 1881 e o que cada data deixou para você ver.</p></div></a>
 <a class="gcard" href="/pt/recoleta-cemetery-legends/"><img src="../../img/rufina-600.webp" width="800" height="500" loading="lazy" alt="As lendas do Cemitério da Recoleta"><div class="b"><h3>As lendas do Cemitério da Recoleta</h3><p>Rufina Cambaceres, Liliana e seu cachorro, David Alleno — o que está documentado e o que não está.</p></div></a>
 <a class="gcard" href="/pt/famous-graves-recoleta-cemetery/"><img src="../../img/brown-800.webp" width="800" height="500" loading="lazy" alt="Quem está enterrado aqui: os túmulos famosos"><div class="b"><h3>Quem está enterrado aqui: os túmulos famosos</h3><p>Presidentes, o almirante Brown, ganhadores do Nobel, escritores, um boxeador — como reconhecer os túmulos e onde procurar.</p></div></a>
 <a class="gcard" href="/pt/recoleta-cemetery-tickets/"><img src="../../img/entrance-800.webp" width="800" height="500" loading="lazy" alt="Ingressos, preço &amp; horários"><div class="b"><h3>Ingressos, preço &amp; horários</h3><p>O valor para estrangeiros, quem entra de graça, como pagar, horários e as visitas gratuitas.</p></div></a>
@@ -299,7 +315,6 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 <div class="gcat">Em breve</div>
 <div class="gcards">
-<div class="gcard soon"><img src="../../img/skull-800.webp" width="800" height="500" loading="lazy" alt="Arte funerária &amp; símbolos"><div class="b"><h3>Arte funerária &amp; símbolos</h3><p>Art Nouveau, neogótico, Art Déco — e um decodificador para as portas.</p><span class="tag">Em breve</span></div></div>
 </div>
 <p style="margin-top:36px"><a href="/pt/">&larr; Voltar ao guia completo do Cemitério da Recoleta</a></p>
 </div>
@@ -320,8 +335,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 </div></footer>
 <div class="stickybuy" id="stickybuy">
-<div class="p">Audioguia do Cemitério da Recoleta <small>&middot; a partir de &euro;9.99 &middot; offline &middot; 22 paradas</small></div>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pt" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pt">Comprar &euro;9.99</a>
+<div class="p">Audioguia do Cemitério da Recoleta <small>&middot; &euro;9.99 &middot; offline &middot; 22 paradas</small></div>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pt&utm_source=recoletatourcom&utm_medium=article&utm_campaign=pt&utm_content=guides" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pt">Comprar &euro;9.99</a>
 </div>
 <script>(function(){var b=document.getElementById('stickybuy');if(!b)return;function s(){if(window.scrollY>600){b.classList.add('show')}else{b.classList.remove('show')}}window.addEventListener('scroll',s,{passive:true});s();})();</script>
 <script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a36bfe69-78c2-4c67-acd7-1284975de5e5';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script>

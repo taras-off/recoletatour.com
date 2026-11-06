@@ -208,6 +208,16 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.chips span{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--ink)}
+.tb-banner{display:flex;gap:18px;align-items:center;border:2px solid #0ea2e6;background:#f2f9fd;border-radius:12px;padding:16px 18px;margin:1.6em 0}
+.tb-banner img{width:132px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto}.tb-banner h3{margin:0 0 6px;font-size:19px}.tb-banner p{margin:0 0 12px;font-size:15px}.tb-banner .btn{margin:0}
+@media(max-width:560px){.tb-banner{flex-direction:column;align-items:flex-start}.tb-banner img{width:100%;height:150px}}
+.article .grid.why3>div,.article .grid.cmp3>div{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.article .grid.why3 h3,.article .grid.cmp3 h3{margin:0 0 8px;font-size:17px}.article .grid.why3 p{margin:0;font-size:15px}
+.article .grid.cmp3 ul{margin:0 0 12px;padding-left:18px;font-size:15px}.article .grid.cmp3 .hi{background:#f2f9fd;border-color:#0ea2e6}.article .grid.cmp3 .btn{margin:0}
+.article ol.steps{counter-reset:s;list-style:none;padding:0}.article ol.steps li{counter-increment:s;position:relative;padding:0 0 0 44px;margin:0 0 12px}.article ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--brand,#0ea2e6);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.article ul.trust{list-style:none;padding:0}.article ul.trust li{padding:6px 0 6px 28px;position:relative}.article ul.trust li::before{content:"\2713";position:absolute;left:0;color:#0ea2e6;font-weight:700}
+.article p.note{background:var(--soft);border-left:3px solid #0ea2e6;padding:10px 14px;border-radius:0 8px 8px 0;font-size:15px}
+.r-lane{stroke:#e4dccb;stroke-width:1.5}.r-path{fill:none;stroke:#b23a2d;stroke-width:3;stroke-dasharray:7 5;stroke-linejoin:round}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -256,7 +266,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .bokun-widgets-cart-wrapper{position:fixed!important;top:auto!important;left:auto!important;right:16px!important;bottom:16px!important;margin:0!important;z-index:2147483000!important}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Cimitero della Recoleta: tour guidato, audioguida o da soli", "description": "Should you take a guided tour of Recoleta Cemetery, use an audio guide, or just walk in? Costs, languages, timing and what you actually get from each — an honest comparison.", "inLanguage": "it", "datePublished": "2026-10-21", "dateModified": "2026-10-21", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/christ-800.webp", "mainEntityOfPage": "https://recoletatour.com/it/recoleta-cemetery-guided-vs-self-guided/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Serve una guida per il Cimitero della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "Non per entrare: è completamente aperto ai visitatori indipendenti. Ma senza un minimo di orientamento la maggior parte delle persone vede Evita e poco altro. Una mappa più le storie (una guida dal vivo o un'audioguida) è ciò che trasforma il labirinto in una visita."}}, {"@type": "Question", "name": "Ci sono tour gratuiti in inglese del Cimitero della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No. Le passeggiate guidate gratuite della Città partono dal cancello ogni ora ma sono solo in spagnolo. I tour in inglese sono a pagamento (da circa 15–30 US$ a persona su GetYourGuide) oppure fai-da-te con un'audioguida."}}, {"@type": "Question", "name": "Quanto costa un tour guidato della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "I tour in inglese per piccoli gruppi costano in genere 15–35 US$ a persona, spesso con il biglietto d'ingresso per non residenti incluso; i tour privati da circa 60–100 US$. Un'audioguida costa 9,99 € una tantum e non include il biglietto."}}, {"@type": "Question", "name": "Quanto dura un tour guidato?", "acceptedAnswer": {"@type": "Answer", "text": "La maggior parte dura da 1,5 a 2 ore e copre 15–25 tombe a ritmo fisso. L'audioguida copre 22 tappe in circa 90 minuti, ma puoi metterci tre ore o venti minuti."}}, {"@type": "Question", "name": "Posso combinare un tour con l'audioguida?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, ed è il meglio di entrambi i mondi: fai il tour gratuito in spagnolo o uno a pagamento in inglese per la cronologia e il percorso, poi torna con l'audioguida alle tombe dove vuoi fermarti."}}, {"@type": "Question", "name": "Qual è l'opzione migliore con i bambini?", "acceptedAnswer": {"@type": "Answer", "text": "Fai-da-te. I bambini reggono raramente due ore di tour di gruppo tra sconosciuti; con un'audioguida puoi trasformare la visita in una caccia ai simboli, saltare tappe e uscire quando arriva la richiesta di gelato."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/it/"}, {"@type": "ListItem", "position": 2, "name": "Guided vs Self-Guided", "item": "https://recoletatour.com/recoleta-cemetery-guided-vs-self-guided/"}]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Cimitero della Recoleta: tour guidato, audioguida o da soli", "description": "Should you take a guided tour of Recoleta Cemetery, use an audio guide, or just walk in? Costs, languages, timing and what you actually get from each — an honest comparison.", "inLanguage": "it", "datePublished": "2026-11-05", "dateModified": "2026-11-05", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/christ-800.webp", "mainEntityOfPage": "https://recoletatour.com/it/recoleta-cemetery-guided-vs-self-guided/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Serve una guida per il Cimitero della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "Non per entrare: è completamente aperto ai visitatori indipendenti. Ma senza un minimo di orientamento la maggior parte delle persone vede Evita e poco altro. Una mappa più le storie (una guida dal vivo o un'audioguida) è ciò che trasforma il labirinto in una visita."}}, {"@type": "Question", "name": "Ci sono tour gratuiti in inglese del Cimitero della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No. Le passeggiate guidate gratuite della Città partono dal cancello ogni ora ma sono solo in spagnolo. I tour in inglese sono a pagamento (da circa 15–30 US$ a persona su GetYourGuide) oppure fai-da-te con un'audioguida."}}, {"@type": "Question", "name": "Quanto costa un tour guidato della Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "I tour in inglese per piccoli gruppi costano in genere 15–35 US$ a persona, spesso con il biglietto d'ingresso per non residenti incluso; i tour privati da circa 60–100 US$. Un'audioguida costa 9,99 € una tantum e non include il biglietto."}}, {"@type": "Question", "name": "Quanto dura un tour guidato?", "acceptedAnswer": {"@type": "Answer", "text": "La maggior parte dura da 1,5 a 2 ore e copre 15–25 tombe a ritmo fisso. L'audioguida copre 22 tappe in circa 90 minuti, ma puoi metterci tre ore o venti minuti."}}, {"@type": "Question", "name": "Posso combinare un tour con l'audioguida?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, ed è il meglio di entrambi i mondi: fai il tour gratuito in spagnolo o uno a pagamento in inglese per la cronologia e il percorso, poi torna con l'audioguida alle tombe dove vuoi fermarti."}}, {"@type": "Question", "name": "Qual è l'opzione migliore con i bambini?", "acceptedAnswer": {"@type": "Answer", "text": "Fai-da-te. I bambini reggono raramente due ore di tour di gruppo tra sconosciuti; con un'audioguida puoi trasformare la visita in una caccia ai simboli, saltare tappe e uscire quando arriva la richiesta di gelato."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/it/"}, {"@type": "ListItem", "position": 2, "name": "Guided vs Self-Guided", "item": "https://recoletatour.com/recoleta-cemetery-guided-vs-self-guided/"}]}]}
 </script>
 </head>
 <body>
@@ -265,7 +275,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="nav-wrap">
 <details class="menu"><summary>Guide <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 <div class="dropdown">
+<a href="/it/recoleta-cemetery-self-guided-walking-tour/">Tour in autonomia con l'audioguida</a>
 <a href="/it/evita-tomb/">La tomba di Eva Perón: come trovarla</a>
+<a href="/it/recoleta-cemetery-architecture/">Arte funeraria &amp; simboli</a>
+<a href="/it/recoleta-cemetery-history/">Storia del cimitero</a>
 <a href="/it/recoleta-cemetery-legends/">Le leggende del Cimitero della Recoleta</a>
 <a href="/it/famous-graves-recoleta-cemetery/">Chi è sepolto qui: le tombe famose</a>
 <a href="/it/recoleta-cemetery-tickets/">Biglietti, ingresso &amp; orari</a>
@@ -284,9 +297,9 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <nav class="crumbs"><a href="/it/">Home</a> &rsaquo; Guidato o fai-da-te</nav>
 <h1>Cimitero della Recoleta: tour guidato, audioguida o da soli?</h1>
 <p class="sub">Tre modi per vedere le stesse 4.600 tombe. Uno è gratis, uno è flessibile, uno ha una persona in carne e ossa. Ecco come si confrontano davvero.</p>
-<div class="byline"><span>Di <b>Eugene</b></span><span>Aggiornato a <b>ottobre 2026</b></span><span>Lettura di <b>7 minuti</b></span></div>
+<div class="byline"><span>Di <b>Eugene</b></span><span>Aggiornato a <b>novembre 2026</b></span><span>Lettura di <b>7 minuti</b></span></div>
 <div class="herobtns">
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista l'audioguida</a>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it&utm_source=recoletatourcom&utm_medium=article&utm_campaign=it&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista l'audioguida</a>
 <a class="btn dark" href="/it/recoleta-cemetery-tickets/">Biglietti &amp; orari</a>
 <a class="btn ghost" href="https://www.getyourguide.com/la-recoleta-cemetery-l3890/?partner_id=0M4BUCG&utm_medium=travel_agent" target="_blank" rel="noopener sponsored">Prenota un tour guidato</a>
 </div>
@@ -296,14 +309,14 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <p class="lead">Puoi entrare nel Cimitero della Recoleta con niente più che un biglietto, e in migliaia lo fanno. Quasi tutti trovano Eva Perón, fotografano qualche angelo, si perdono per un po' e se ne vanno dopo quaranta minuti, dopo essere passati a cinquanta metri dalle storie più strane d'Argentina senza sentirne una. Il cimitero non si spiega da solo. Quindi la vera domanda non è se farsi guidare, ma come.</p>
 
-<p>Le opzioni oneste sono tre: un tour guidato dal vivo (gratis in spagnolo, a pagamento in inglese), un'audioguida come <a class="bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">quella di TouringBee</a>, oppure le tue gambe e una mappa. Questo è un confronto leale di tutte e tre &mdash; una la vendiamo noi, eppure ti diremo lo stesso quando le altre sono la scelta migliore.</p>
+<p>Le opzioni oneste sono tre: un tour guidato dal vivo (gratis in spagnolo, a pagamento in inglese), un'audioguida come <a href="/it/recoleta-cemetery-self-guided-walking-tour/">quella di TouringBee</a>, oppure le tue gambe e una mappa. Questo è un confronto leale di tutte e tre &mdash; una la vendiamo noi, eppure ti diremo lo stesso quando le altre sono la scelta migliore.</p>
 
 <p>Stai ancora organizzando tutto il viaggio? Parti dalla nostra <a href="/it/">guida completa al Cimitero della Recoleta</a>, poi torna qui per scegliere la formula.</p>
 
 <h2 id="at-a-glance">Le tre opzioni in breve</h2>
 <div class="tblwrap"><table class="tbl">
 <tr><th></th><th>Tour guidato</th><th>Audioguida</th><th>Da soli</th></tr>
-<tr><td><b>Costo</b></td><td>Gratis (spagnolo) &middot; 15&ndash;35 US$ piccolo gruppo in inglese &middot; da 60 US$ privato</td><td>&euro;9.99 una tantum (per telefono, non per persona)</td><td>Solo il biglietto d'ingresso</td></tr>
+<tr><td><b>Costo</b></td><td>Gratis (spagnolo) &middot; 15&ndash;35 US$ piccolo gruppo in inglese &middot; da 60 US$ privato</td><td>&euro;9.99 a persona, un solo pagamento, accesso per un anno</td><td>Solo il biglietto d'ingresso</td></tr>
 <tr><td><b>Lingua</b></td><td>Tour gratuiti: solo spagnolo. A pagamento: inglese, qualcuno in portoghese</td><td>Inglese o spagnolo</td><td>Quella in cui leggi</td></tr>
 <tr><td><b>Tempo</b></td><td>1,5&ndash;2 h con partenza e ritmo fissi</td><td>Da 45 min a 3 h, a qualsiasi ora tra le 9:00 e le 17:00</td><td>Illimitato &mdash; di solito 40 min</td></tr>
 <tr><td><b>Orientamento</b></td><td>Segui l'ombrellino</td><td>Mappa offline con tutte le 22 tappe</td><td>Mappa di carta al cancello, se disponibile</td></tr>
@@ -322,24 +335,24 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <h2 id="audio">Opzione 2: l'audioguida</h2>
 <p>Un'audioguida è un tour senza il gruppo. La scarichi in anticipo, entri quando vuoi e avvii tu stesso ogni storia quando arrivi alla tomba. Il tour TouringBee della Recoleta ha 22 tappe su una mappa offline &mdash; dal portico al Nostradamus argentino &mdash; ognuna una registrazione di tre-cinque minuti scritta da uno storico professionista. Qui la mappa conta più che quasi ovunque: il segnale mobile muore tra i muri di marmo, e un percorso che funziona offline fa la differenza tra trovare la tomba del custode e arrendersi.</p>
-<p>Quello che perdi è la persona: nessuno a cui chiedere, nessuna risposta al “cos'è quello?” davanti alla cappella che non è nel percorso. Quello che guadagni è la Recoleta alle 9:00 senza nessuno nel vialetto di Evita, la libertà di passare venti minuti alla porta di Rufina e saltare il vicepresidente, e storie che puoi riascoltare. È narrata in inglese e spagnolo, un solo pagamento copre un anno, e il tutto costa meno del biglietto d'ingresso. Il biglietto non è incluso &mdash; lo include solo il sito ufficiale.</p>
+<p>Quello che perdi è la persona: nessuno a cui chiedere, nessuna risposta al “cos'è quello?” davanti alla cappella che non è nel percorso. Quello che guadagni è la Recoleta alle 9:00 senza nessuno nel vialetto di Evita, la libertà di passare venti minuti alla porta di Rufina e saltare il vicepresidente, e storie che puoi riascoltare. È in inglese e spagnolo, un solo pagamento dà accesso per un anno, e costa meno del biglietto d'ingresso. Il biglietto non è incluso &mdash; lo include solo il sito ufficiale.</p>
 <p><strong>Scegli questa opzione se</strong> viaggi in autonomia, fai fotografie, sei con i bambini, hai poco tempo, o semplicemente vuoi ascoltare le storie senza stare sotto l'ombrellino di qualcuno.</p>
 
 <div class="product-card" id="audio">
 <img class="pc-img" width="1200" height="800" loading="lazy" decoding="async" src="../../img/product-recoleta.webp" alt="Audioguida del Cimitero della Recoleta nell'app TouringBee">
 <div class="pc-body">
-<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; scritto da uno storico professionista &middot; 22 tappe</div>
+<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; testi scritti da storici professionisti &middot; 22 tappe</div>
 <h3>Audioguida del Cimitero della Recoleta<span class="badge">Accesso immediato</span></h3>
-<div class="pc-price">Da &euro;9.99 <small>&middot; accesso per 1 anno</small></div>
+<div class="pc-price">&euro;9.99 <small>&middot; accesso per 1 anno</small></div>
 <ul class="features">
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l20 20"/><path d="M5 12.5a11 11 0 0 1 14 0"/><path d="M8.5 16a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/></svg> 100% offline &mdash; dentro il cimitero non servono né Wi-Fi né dati</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Mappa offline con il percorso &mdash; ogni storia l'avvii tu, davanti alla tomba</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg> Lingue dell'audio: <b>inglese, spagnolo</b></li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="3" width="10" height="18" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Funziona su iOS &amp; Android</li>
-<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 tappe, circa 1&ndash;2 ore al tuo ritmo</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 tappe, circa 1,5 ore al tuo ritmo</li>
 </ul>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista l'audioguida</a>
+<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it&utm_source=recoletatourcom&utm_medium=article&utm_campaign=it&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista l'audioguida</a>
 
 </div>
 </div>
@@ -357,21 +370,21 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <img src="../../img/product-recoleta.webp" width="96" height="96" loading="lazy" alt="Audioguida TouringBee del Cimitero della Recoleta">
 <div class="ac-body">
 <h3>Ascolta le storie davanti alle tombe</h3>
-<p>22 tappe &middot; ~1,5 h &middot; mappa offline &mdash; da &euro;9.99, un solo pagamento, nessun abbonamento.</p>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Prendi l'audioguida</a>
+<p>22 tappe &middot; ~1,5 h &middot; mappa offline &mdash; &euro;9.99, un solo pagamento, nessun abbonamento.</p>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it&utm_source=recoletatourcom&utm_medium=article&utm_campaign=it&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Prendi l'audioguida</a>
 </div>
 </div>
 
 
 <h2 id="cost">Quanto costa, senza giri di parole</h2>
-<p>Per due persone in un tour a pagamento in inglese: 30&ndash;70 US$ biglietti inclusi, 90 minuti, una mattina. Per due persone con l'audioguida: i due biglietti d'ingresso (circa 24.000 ARS ciascuno per i non residenti) più un acquisto da &euro;9.99 condiviso su un telefono con uno sdoppiatore, o due telefoni con due acquisti &mdash; e tutto il tempo che vuoi. Per due persone da sole: due biglietti e quaranta minuti. Tour e audioguida finiscono più o meno alla pari se il tour include i biglietti; l'audioguida vince su flessibilità e tempo, il tour sulle domande.</p>
+<p>Per due persone in un tour a pagamento in inglese: 30&ndash;70 US$ biglietti inclusi, 90 minuti, una mattina. Per due persone con l'audioguida: i due biglietti d'ingresso (circa 24.000 ARS ciascuno per i non residenti) più due audioguide &euro;9.99 (una a persona) &mdash; e tutto il tempo che vuoi. Per due persone da sole: due biglietti e quaranta minuti. Tour e audioguida finiscono più o meno alla pari se il tour include i biglietti; l'audioguida vince su flessibilità e tempo, il tour sulle domande.</p>
 
 <h2 id="mistakes">Errori comuni</h2>
 <p>Aspettare al cancello un tour gratuito in inglese che non esiste. Prenotare un tour di gruppo alle 13:00 di gennaio e passarlo in coda davanti alla cappella di Evita sotto il sole. Scaricare l'audioguida <em>dentro</em> il cimitero con un segnale che non c'è. Fare il tour, saltare il secondo giro e accorgersi in aereo di non aver mai visto il pugile. E il classico: entrare impreparati, vedere Evita e andarsene.</p>
 
 <h2 id="takeaway">In sintesi</h2>
 <p>Prendi una guida se vuoi una persona. Prendi l'audioguida se vuoi il cimitero. Prendile entrambe se puoi. Qualunque cosa tu scelga, fatti trovare al cancello alle 9:00 &mdash; la formula conta meno dell'ora.</p>
-<p>L'audioguida è pronta quando lo sei tu: 22 tappe, mappa offline, inglese o spagnolo, un solo pagamento. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Prendi l'audioguida &mdash; &euro;9.99</a></p>
+<p>L'audioguida è pronta quando lo sei tu: 22 tappe, mappa offline, inglese o spagnolo, un solo pagamento. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it&utm_source=recoletatourcom&utm_medium=article&utm_campaign=it&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Prendi l'audioguida &mdash; &euro;9.99</a></p>
 
 
 <h2 id="faq">Domande frequenti</h2>
@@ -411,8 +424,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 </div></footer>
 <div class="stickybuy" id="stickybuy">
-<div class="p">Audioguida del Cimitero della Recoleta <small>&middot; da &euro;9.99 &middot; offline &middot; 22 tappe</small></div>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista a &euro;9.99</a>
+<div class="p">Audioguida del Cimitero della Recoleta <small>&middot; &euro;9.99 &middot; offline &middot; 22 tappe</small></div>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=it&utm_source=recoletatourcom&utm_medium=article&utm_campaign=it&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=it">Acquista a &euro;9.99</a>
 </div>
 <script>(function(){var b=document.getElementById('stickybuy');if(!b)return;function s(){if(window.scrollY>700){b.classList.add('show')}else{b.classList.remove('show')}}window.addEventListener('scroll',s,{passive:true});s();})();</script>
 <script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a36bfe69-78c2-4c67-acd7-1284975de5e5';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script>

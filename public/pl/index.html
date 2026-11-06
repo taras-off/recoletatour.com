@@ -209,6 +209,16 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.chips span{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--ink)}
+.tb-banner{display:flex;gap:18px;align-items:center;border:2px solid #0ea2e6;background:#f2f9fd;border-radius:12px;padding:16px 18px;margin:1.6em 0}
+.tb-banner img{width:132px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto}.tb-banner h3{margin:0 0 6px;font-size:19px}.tb-banner p{margin:0 0 12px;font-size:15px}.tb-banner .btn{margin:0}
+@media(max-width:560px){.tb-banner{flex-direction:column;align-items:flex-start}.tb-banner img{width:100%;height:150px}}
+.article .grid.why3>div,.article .grid.cmp3>div{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.article .grid.why3 h3,.article .grid.cmp3 h3{margin:0 0 8px;font-size:17px}.article .grid.why3 p{margin:0;font-size:15px}
+.article .grid.cmp3 ul{margin:0 0 12px;padding-left:18px;font-size:15px}.article .grid.cmp3 .hi{background:#f2f9fd;border-color:#0ea2e6}.article .grid.cmp3 .btn{margin:0}
+.article ol.steps{counter-reset:s;list-style:none;padding:0}.article ol.steps li{counter-increment:s;position:relative;padding:0 0 0 44px;margin:0 0 12px}.article ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--brand,#0ea2e6);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.article ul.trust{list-style:none;padding:0}.article ul.trust li{padding:6px 0 6px 28px;position:relative}.article ul.trust li::before{content:"\2713";position:absolute;left:0;color:#0ea2e6;font-weight:700}
+.article p.note{background:var(--soft);border-left:3px solid #0ea2e6;padding:10px 14px;border-radius:0 8px 8px 0;font-size:15px}
+.r-lane{stroke:#e4dccb;stroke-width:1.5}.r-path{fill:none;stroke:#b23a2d;stroke-width:3;stroke-dasharray:7 5;stroke-linejoin:round}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -266,7 +276,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="nav-wrap">
 <details class="menu"><summary>Przewodniki <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 <div class="dropdown">
+<a href="/pl/recoleta-cemetery-self-guided-walking-tour/">Trasa na własną rękę z audioprzewodnikiem</a>
 <a href="/pl/evita-tomb/">Grób Evy Perón: jak go znaleźć</a>
+<a href="/pl/recoleta-cemetery-architecture/">Sztuka nagrobna i symbole</a>
+<a href="/pl/recoleta-cemetery-history/">Historia cmentarza</a>
 <a href="/pl/recoleta-cemetery-legends/">Legendy Cmentarza Recoleta</a>
 <a href="/pl/famous-graves-recoleta-cemetery/">Kto tu spoczywa: słynne groby</a>
 <a href="/pl/recoleta-cemetery-tickets/">Bilety, opłata za wstęp i godziny otwarcia</a>
@@ -289,14 +302,14 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <p>Bilety, godziny otwarcia, jak znaleźć słynne groby &mdash; plus audioprzewodnik we własnym tempie na sam spacer.</p>
 <div>
 <a class="btn dark" href="#inside">Zobacz, co w środku</a>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup audioprzewodnik</a>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup audioprzewodnik</a>
 <a class="btn ghost" href="#preview" onclick="var a=document.getElementById('previewAudio');if(a){a.play();}">Posłuchaj próbki</a>
 <a class="btn dark" href="/pl/recoleta-cemetery-tickets/">Bilety i godziny</a>
 </div>
 </div>
 
 <!-- 2. PREVIEW + WHAT IS THIS TOUR -->
-<div id="preview" style="max-width:760px;margin:0 auto;padding:28px 20px;text-align:center;border-bottom:1px solid #e4ebf0"><h2 style="margin:0 0 6px">Posłuchaj przewodnika, zanim wyruszysz</h2><p style="margin:0 0 14px;color:#5c6b78">Krótka próbka &mdash; ten sam głos, który poprowadzi cię od portyku po najdalsze alejki.</p><audio id="previewAudio" controls preload="none" style="width:100%;max-width:520px" src="/audio/buenosairest1_en_intro.mp3"></audio></div>
+<div id="preview" style="max-width:760px;margin:0 auto;padding:28px 20px;text-align:center;border-bottom:1px solid #e4ebf0"><h2 style="margin:0 0 6px">Posłuchaj przewodnika, zanim wyruszysz</h2><p style="margin:0 0 14px;color:#5c6b78">Krótka próbka &mdash; ten sam głos, który poprowadzi cię od portyku po najdalsze alejki.</p><audio id="previewAudio" controls preload="none" style="width:100%;max-width:520px" src="/audio/buenosairest1_en_intro.mp3"></audio><p style="margin:14px 0 0"><a href="/pl/recoleta-cemetery-self-guided-walking-tour/">Jak działa trasa na własną rękę: przebieg, historie, cena &rarr;</a></p></div>
 <section id="inside"><div class="wrap center">
 <h2>Czym jest ta trasa?</h2>
 <p class="lead">Audioprzewodnik, którego słuchasz na telefonie podczas spaceru. Mapa offline pokazuje, gdzie jesteś i gdzie stoi następny grobowiec; każdą opowieść uruchamiasz sam, gdy do niego dotrzesz &mdash; więc patrzysz na marmurowe anioły, a nie na ekran. Kupujesz raz, używasz offline, zachowujesz na rok.</p>
@@ -310,18 +323,18 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="product-card" id="audio">
 <img class="pc-img" width="1200" height="800" loading="lazy" decoding="async" src="/img/product-recoleta.webp" alt="Audioprzewodnik po Cmentarzu Recoleta w aplikacji TouringBee">
 <div class="pc-body">
-<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; napisany przez zawodowego historyka &middot; 22 przystanki</div>
+<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; teksty napisane przez zawodowych historyków &middot; 22 przystanki</div>
 <h3>Audioprzewodnik po Cmentarzu Recoleta<span class="badge">Dostęp od razu</span></h3>
-<div class="pc-price">Od &euro;9.99 <small>&middot; dostęp na 1 rok</small></div>
+<div class="pc-price">&euro;9.99 <small>&middot; dostęp na 1 rok</small></div>
 <ul class="features">
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l20 20"/><path d="M5 12.5a11 11 0 0 1 14 0"/><path d="M8.5 16a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/></svg> 100% offline &mdash; na cmentarzu nie potrzebujesz Wi-Fi ani internetu</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Mapa offline z trasą &mdash; każdą opowieść uruchamiasz samodzielnie przy grobowcu</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg> Języki audio: <b>angielski, hiszpański</b></li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="3" width="10" height="18" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Działa na iOS i Androidzie</li>
-<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 przystanki, około 1&ndash;2 godzin we własnym tempie</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 przystanki, około 1,5 godziny we własnym tempie</li>
 </ul>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup audioprzewodnik</a>
+<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup audioprzewodnik</a>
 <a class="btn outline" style="margin:0" href="#preview" onclick="var a=document.getElementById('previewAudio');if(a){a.play();}">Posłuchaj demo</a>
 </div>
 </div>
@@ -348,8 +361,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <p>Recoleta, po której dziś spacerujesz, to w dużej mierze dzieło jednej dekady. W 1881 roku burmistrz Torcuato de Alvear zarządził pełną przebudowę, a architekt Juan Antonio Buschiazzo dał cmentarzowi neoklasycystyczny portyk, brukowane aleje i kwartały grobowców rodzinnych, które stoją wzdłuż alejek jak kamienice. Zanim wejdziesz, przeczytaj bramę: <em>Requiescant in pace</em> nad kolumnami, sowa, skrzydlata klepsydra, wąż gryzący własny ogon. Cały cmentarz jest zapisany na tych drzwiach.</p>
 
 <div class="midcta">
-<p style="margin:.2em 0 .7em">Posłuchaj tych opowieści przy samych grobowcach &mdash; 22 przystanki, we właściwej kolejności. <span class="price">Od &euro;9.99</span> &middot; offline &middot; po angielsku i hiszpańsku</p>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik</a>
+<p style="margin:.2em 0 .7em">Posłuchaj tych opowieści przy samych grobowcach &mdash; 22 przystanki, we właściwej kolejności. <span class="price">&euro;9.99</span> &middot; offline &middot; po angielsku i hiszpańsku</p>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik</a>
 </div>
 
 <h3>Najdłuższa podróż Evy Perón</h3>
@@ -395,7 +408,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="step"><h3>Zacznij przy bramie</h3><p>Otwórz przewodnik przy portyku, idź za mapą offline i uruchamiaj każdą opowieść sam, gdy dotrzesz do grobowca.</p></div>
 <div class="step"><h3>Pauza i wznowienie</h3><p>Idź we własnym tempie, usiądź w cieniu i wróć dokładnie tam, gdzie skończyłeś.</p></div>
 </div>
-<p class="center" style="margin-top:22px"><a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik</a></p>
+<p class="center" style="margin-top:22px"><a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik</a></p>
 </div></section>
 
 <!-- 6. VISITING INFO + TICKET BOX -->
@@ -458,7 +471,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <section><div class="wrap">
 <h2>Zaplanuj wizytę</h2>
 <ul>
-<li><a href="/pl/evita-tomb/">Grób Evy Perón: jak go znaleźć</a> &mdash; Gdzie stoi grobowiec Duarte, co tam zobaczysz i 24-letnia wędrówka jej ciała.</li><li><a href="/pl/recoleta-cemetery-legends/">Legendy Cmentarza Recoleta</a> &mdash; Rufina Cambaceres, Liliana i jej pies, David Alleno — co jest udokumentowane, a co nie.</li><li><a href="/pl/famous-graves-recoleta-cemetery/">Kto tu spoczywa: słynne groby</a> &mdash; Prezydenci, admirał Brown, nobliści, pisarze, bokser — jak rozpoznać ich grobowce i gdzie ich szukać.</li><li><a href="/pl/recoleta-cemetery-tickets/">Bilety, opłata za wstęp i godziny otwarcia</a> &mdash; Opłata dla zagranicznych gości, kto wchodzi za darmo, jak zapłacić, godziny i bezpłatne oprowadzania.</li><li><a href="/pl/how-to-get-to-recoleta-cemetery/">Jak dojechać na Cmentarz Recoleta</a> &mdash; linia H Subte, które autobusy, czasy taksówką z centrum i z lotnisk oraz spacer po Av. Alvear.</li><li><a href="/pl/recoleta-cemetery-self-guided-walk/">Trasa na własną rękę przez labirynt</a> &mdash; Trasa z 22 przystankami od portyku po najdalsze alejki — we właściwej kolejności.</li><li><a href="/pl/recoleta-cemetery-guided-vs-self-guided/">Wycieczka z przewodnikiem, audioprzewodnik czy samemu</a> &mdash; Ile kosztuje każda opcja, co dostajesz i która pasuje do twojego dnia.</li><li><a href="/pl/best-time-to-visit-recoleta-cemetery/">Kiedy najlepiej odwiedzić</a> &mdash; Dlaczego liczy się 9:00, kiedy zjeżdżają autokary i pory roku postawione na głowie.</li><li><a href="/pl/things-to-do-in-recoleta/">Co robić w Recolecie</a> &mdash; Bazylika, bezpłatne Bellas Artes, Floralis Genérica, weekendowy jarmark i La Biela — z mapą i dwoma planami na pół dnia.</li>
+<li><a href="/pl/recoleta-cemetery-self-guided-walking-tour/">Trasa na własną rękę z audioprzewodnikiem</a> &mdash; Recoleta bez grupy i bez grafiku: 22 opowieści na mapie offline — jak działa audioprzewodnik TouringBee i ile kosztuje.</li><li><a href="/pl/evita-tomb/">Grób Evy Perón: jak go znaleźć</a> &mdash; Gdzie stoi grobowiec Duarte, co tam zobaczysz i 24-letnia wędrówka jej ciała.</li><li><a href="/pl/recoleta-cemetery-architecture/">Sztuka sepulkralna i symbole</a> &mdash; Cztery style, egipskie i prekolumbijskie niespodzianki oraz klucz do sów, klepsydr i węży na drzwiach.</li><li><a href="/pl/recoleta-cemetery-history/">Historia cmentarza</a> &mdash; Od ogrodu zakonników z 1732 roku do miasta zmarłych: 1822, 1863, 1871, 1881 i to, co każda z tych dat zostawiła tu do zobaczenia.</li><li><a href="/pl/recoleta-cemetery-legends/">Legendy Cmentarza Recoleta</a> &mdash; Rufina Cambaceres, Liliana i jej pies, David Alleno — co jest udokumentowane, a co nie.</li><li><a href="/pl/famous-graves-recoleta-cemetery/">Kto tu spoczywa: słynne groby</a> &mdash; Prezydenci, admirał Brown, nobliści, pisarze, bokser — jak rozpoznać ich grobowce i gdzie ich szukać.</li><li><a href="/pl/recoleta-cemetery-tickets/">Bilety, opłata za wstęp i godziny otwarcia</a> &mdash; Opłata dla zagranicznych gości, kto wchodzi za darmo, jak zapłacić, godziny i bezpłatne oprowadzania.</li><li><a href="/pl/how-to-get-to-recoleta-cemetery/">Jak dojechać na Cmentarz Recoleta</a> &mdash; linia H Subte, które autobusy, czasy taksówką z centrum i z lotnisk oraz spacer po Av. Alvear.</li><li><a href="/pl/recoleta-cemetery-self-guided-walk/">Trasa na własną rękę przez labirynt</a> &mdash; Trasa z 22 przystankami od portyku po najdalsze alejki — we właściwej kolejności.</li><li><a href="/pl/recoleta-cemetery-guided-vs-self-guided/">Wycieczka z przewodnikiem, audioprzewodnik czy samemu</a> &mdash; Ile kosztuje każda opcja, co dostajesz i która pasuje do twojego dnia.</li><li><a href="/pl/best-time-to-visit-recoleta-cemetery/">Kiedy najlepiej odwiedzić</a> &mdash; Dlaczego liczy się 9:00, kiedy zjeżdżają autokary i pory roku postawione na głowie.</li><li><a href="/pl/things-to-do-in-recoleta/">Co robić w Recolecie</a> &mdash; Bazylika, bezpłatne Bellas Artes, Floralis Genérica, weekendowy jarmark i La Biela — z mapą i dwoma planami na pół dnia.</li>
 <li><a href="/pl/guides/">Wszystkie przewodniki po Recolecie &rarr;</a></li>
 </ul>
 </div></section>
@@ -495,7 +508,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <section class="final"><div class="wrap">
 <h2>Przejdź Recoletę z każdą opowieścią w słuchawkach</h2>
 <p>Evita, admirał, bokser, dziewczyna w drzwiach &mdash; opowiedziane przy samych grobowcach, w twoim tempie.</p>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik &mdash; od &euro;9.99</a>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Weź audioprzewodnik &mdash; &euro;9.99</a>
 </div></section>
 
 </main>
@@ -515,8 +528,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 </div></footer>
 <div class="stickybuy" id="stickybuy">
-<div class="p">Audioprzewodnik po Cmentarzu Recoleta <small>&middot; od &euro;9.99 &middot; offline &middot; 22 przystanki</small></div>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup za &euro;9.99</a>
+<div class="p">Audioprzewodnik po Cmentarzu Recoleta <small>&middot; &euro;9.99 &middot; offline &middot; 22 przystanki</small></div>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=pl&utm_source=recoletatourcom&utm_medium=landing&utm_campaign=pl&utm_content=home" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=pl">Kup za &euro;9.99</a>
 </div>
 <script>(function(){var b=document.getElementById('stickybuy');if(!b)return;function s(){if(window.scrollY>800){b.classList.add('show')}else{b.classList.remove('show')}}window.addEventListener('scroll',s,{passive:true});s();})();</script>
 <script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a36bfe69-78c2-4c67-acd7-1284975de5e5';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script>

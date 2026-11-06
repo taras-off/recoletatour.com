@@ -208,6 +208,16 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.chips span{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--ink)}
+.tb-banner{display:flex;gap:18px;align-items:center;border:2px solid #0ea2e6;background:#f2f9fd;border-radius:12px;padding:16px 18px;margin:1.6em 0}
+.tb-banner img{width:132px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto}.tb-banner h3{margin:0 0 6px;font-size:19px}.tb-banner p{margin:0 0 12px;font-size:15px}.tb-banner .btn{margin:0}
+@media(max-width:560px){.tb-banner{flex-direction:column;align-items:flex-start}.tb-banner img{width:100%;height:150px}}
+.article .grid.why3>div,.article .grid.cmp3>div{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.article .grid.why3 h3,.article .grid.cmp3 h3{margin:0 0 8px;font-size:17px}.article .grid.why3 p{margin:0;font-size:15px}
+.article .grid.cmp3 ul{margin:0 0 12px;padding-left:18px;font-size:15px}.article .grid.cmp3 .hi{background:#f2f9fd;border-color:#0ea2e6}.article .grid.cmp3 .btn{margin:0}
+.article ol.steps{counter-reset:s;list-style:none;padding:0}.article ol.steps li{counter-increment:s;position:relative;padding:0 0 0 44px;margin:0 0 12px}.article ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--brand,#0ea2e6);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.article ul.trust{list-style:none;padding:0}.article ul.trust li{padding:6px 0 6px 28px;position:relative}.article ul.trust li::before{content:"\2713";position:absolute;left:0;color:#0ea2e6;font-weight:700}
+.article p.note{background:var(--soft);border-left:3px solid #0ea2e6;padding:10px 14px;border-radius:0 8px 8px 0;font-size:15px}
+.r-lane{stroke:#e4dccb;stroke-width:1.5}.r-path{fill:none;stroke:#b23a2d;stroke-width:3;stroke-dasharray:7 5;stroke-linejoin:round}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -256,7 +266,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .bokun-widgets-cart-wrapper{position:fixed!important;top:auto!important;left:auto!important;right:16px!important;bottom:16px!important;margin:0!important;z-index:2147483000!important}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Кладбище Реколета: экскурсия, аудиогид или самостоятельно", "description": "Should you take a guided tour of Recoleta Cemetery, use an audio guide, or just walk in? Costs, languages, timing and what you actually get from each — an honest comparison.", "inLanguage": "ru", "datePublished": "2026-10-21", "dateModified": "2026-10-21", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/christ-800.webp", "mainEntityOfPage": "https://recoletatour.com/ru/recoleta-cemetery-guided-vs-self-guided/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Нужен ли гид на кладбище Реколета?", "acceptedAnswer": {"@type": "Answer", "text": "Чтобы войти — нет, кладбище полностью открыто для самостоятельных посетителей. Но без какой-то подсказки большинство видит Эвиту и почти ничего больше. Карта плюс истории (живой гид или аудиогид) — вот что превращает лабиринт в визит."}}, {"@type": "Question", "name": "Есть ли бесплатные экскурсии по Реколете на английском?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Бесплатные городские экскурсии стартуют от ворот каждый час, но только на испанском. Туры на английском платные (примерно от US$15–30 с человека на GetYourGuide), либо самостоятельно с аудиогидом."}}, {"@type": "Question", "name": "Сколько стоит экскурсия по Реколете?", "acceptedAnswer": {"@type": "Answer", "text": "Экскурсии на английском в малых группах обычно стоят US$15–35 с человека, часто с входным билетом для нерезидентов; индивидуальные — примерно от US$60–100. Аудиогид — разовая оплата €9.99, билет в неё не входит."}}, {"@type": "Question", "name": "Сколько длится экскурсия?", "acceptedAnswer": {"@type": "Answer", "text": "Обычно 1,5–2 часа и 15–25 могил в заданном темпе. Аудиотур охватывает 22 остановки примерно за 90 минут, но можно растянуть на три часа или уложиться в двадцать минут."}}, {"@type": "Question", "name": "Можно ли совместить экскурсию с аудиогидом?", "acceptedAnswer": {"@type": "Answer", "text": "Да, и это лучшее из обоих миров: сначала бесплатная испанская экскурсия или платная английская — ради хронологии и маршрута, потом второй круг с аудиогидом к тем склепам, у которых хочется задержаться."}}, {"@type": "Question", "name": "Что лучше с детьми?", "acceptedAnswer": {"@type": "Answer", "text": "Самостоятельно. Дети редко выдерживают двухчасовую экскурсию в компании чужих людей; с аудиогидом можно устроить охоту за символами, пропускать остановки и уйти, как только позовёт мороженое."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/ru/"}, {"@type": "ListItem", "position": 2, "name": "Guided vs Self-Guided", "item": "https://recoletatour.com/recoleta-cemetery-guided-vs-self-guided/"}]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Кладбище Реколета: экскурсия, аудиогид или самостоятельно", "description": "Should you take a guided tour of Recoleta Cemetery, use an audio guide, or just walk in? Costs, languages, timing and what you actually get from each — an honest comparison.", "inLanguage": "ru", "datePublished": "2026-11-05", "dateModified": "2026-11-05", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/christ-800.webp", "mainEntityOfPage": "https://recoletatour.com/ru/recoleta-cemetery-guided-vs-self-guided/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Нужен ли гид на кладбище Реколета?", "acceptedAnswer": {"@type": "Answer", "text": "Чтобы войти — нет, кладбище полностью открыто для самостоятельных посетителей. Но без какой-то подсказки большинство видит Эвиту и почти ничего больше. Карта плюс истории (живой гид или аудиогид) — вот что превращает лабиринт в визит."}}, {"@type": "Question", "name": "Есть ли бесплатные экскурсии по Реколете на английском?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. Бесплатные городские экскурсии стартуют от ворот каждый час, но только на испанском. Туры на английском платные (примерно от US$15–30 с человека на GetYourGuide), либо самостоятельно с аудиогидом."}}, {"@type": "Question", "name": "Сколько стоит экскурсия по Реколете?", "acceptedAnswer": {"@type": "Answer", "text": "Экскурсии на английском в малых группах обычно стоят US$15–35 с человека, часто с входным билетом для нерезидентов; индивидуальные — примерно от US$60–100. Аудиогид — разовая оплата €9.99, билет в неё не входит."}}, {"@type": "Question", "name": "Сколько длится экскурсия?", "acceptedAnswer": {"@type": "Answer", "text": "Обычно 1,5–2 часа и 15–25 могил в заданном темпе. Аудиотур охватывает 22 остановки примерно за 90 минут, но можно растянуть на три часа или уложиться в двадцать минут."}}, {"@type": "Question", "name": "Можно ли совместить экскурсию с аудиогидом?", "acceptedAnswer": {"@type": "Answer", "text": "Да, и это лучшее из обоих миров: сначала бесплатная испанская экскурсия или платная английская — ради хронологии и маршрута, потом второй круг с аудиогидом к тем склепам, у которых хочется задержаться."}}, {"@type": "Question", "name": "Что лучше с детьми?", "acceptedAnswer": {"@type": "Answer", "text": "Самостоятельно. Дети редко выдерживают двухчасовую экскурсию в компании чужих людей; с аудиогидом можно устроить охоту за символами, пропускать остановки и уйти, как только позовёт мороженое."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/ru/"}, {"@type": "ListItem", "position": 2, "name": "Guided vs Self-Guided", "item": "https://recoletatour.com/recoleta-cemetery-guided-vs-self-guided/"}]}]}
 </script>
 </head>
 <body>
@@ -265,7 +275,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="nav-wrap">
 <details class="menu"><summary>Гиды <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 <div class="dropdown">
+<a href="/ru/recoleta-cemetery-self-guided-walking-tour/">Самостоятельный маршрут с аудиогидом</a>
 <a href="/ru/evita-tomb/">Могила Эвы Перон: как найти</a>
+<a href="/ru/recoleta-cemetery-architecture/">Надгробное искусство и символы</a>
+<a href="/ru/recoleta-cemetery-history/">История кладбища</a>
 <a href="/ru/recoleta-cemetery-legends/">Легенды кладбища Реколета</a>
 <a href="/ru/famous-graves-recoleta-cemetery/">Кто здесь похоронен: знаменитые могилы</a>
 <a href="/ru/recoleta-cemetery-tickets/">Билеты, цена и часы работы</a>
@@ -284,9 +297,9 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <nav class="crumbs"><a href="/ru/">Главная</a> &rsaquo; Экскурсия или самостоятельно</nav>
 <h1>Кладбище Реколета: экскурсия с гидом, аудиогид или самостоятельно?</h1>
 <p class="sub">Три способа увидеть одни и те же 4600 склепов. Один бесплатный, один гибкий, в одном есть живой человек. Сравниваем честно.</p>
-<div class="byline"><span>Автор: <b>Евгений</b></span><span>Обновлено: <b>октябрь 2026</b></span><span>Чтение: <b>7 минут</b></span></div>
+<div class="byline"><span>Автор: <b>Евгений</b></span><span>Обновлено: <b>ноябрь 2026</b></span><span>Чтение: <b>7 минут</b></span></div>
 <div class="herobtns">
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид</a>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru&utm_source=recoletatourcom&utm_medium=article&utm_campaign=ru&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид</a>
 <a class="btn dark" href="/ru/recoleta-cemetery-tickets/">Билеты и часы</a>
 <a class="btn ghost" href="https://www.getyourguide.com/la-recoleta-cemetery-l3890/?partner_id=0M4BUCG&utm_medium=travel_agent" target="_blank" rel="noopener sponsored">Забронировать экскурсию</a>
 </div>
@@ -296,14 +309,14 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <p class="lead">На кладбище Реколета можно войти с одним билетом в руках — так и делают тысячи людей. Большинство находит Эву Перон, снимает пару ангелов, немного плутает и уходит через сорок минут. При этом они стояли в пятидесяти метрах от самых странных историй Аргентины и не услышали ни одной. Кладбище само себя не объясняет. Так что вопрос не в том, нужна ли вам подсказка, а в том, какая.</p>
 
-<p>Честных вариантов три: живая экскурсия (бесплатно на испанском, платно на английском), аудиогид вроде <a class="bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">TouringBee</a> или собственные ноги плюс карта. Ниже — справедливое сравнение всех трёх. Да, один из них мы продаём, но всё равно скажем, когда другие подходят лучше.</p>
+<p>Честных вариантов три: живая экскурсия (бесплатно на испанском, платно на английском), аудиогид вроде <a href="/ru/recoleta-cemetery-self-guided-walking-tour/">TouringBee</a> или собственные ноги плюс карта. Ниже — справедливое сравнение всех трёх. Да, один из них мы продаём, но всё равно скажем, когда другие подходят лучше.</p>
 
 <p>Ещё только планируете поездку? Начните с нашего <a href="/ru/">полного гида по кладбищу Реколета</a>, а потом возвращайтесь сюда выбирать формат.</p>
 
 <h2 id="at-a-glance">Три варианта в одной таблице</h2>
 <div class="tblwrap"><table class="tbl">
 <tr><th></th><th>Экскурсия</th><th>Аудиогид</th><th>Самостоятельно</th></tr>
-<tr><td><b>Цена</b></td><td>Бесплатно (испанский) &middot; US$15&ndash;35 малая группа на английском &middot; US$60+ индивидуально</td><td>&euro;9.99 разово (за телефон, не за человека)</td><td>Только входной билет</td></tr>
+<tr><td><b>Цена</b></td><td>Бесплатно (испанский) &middot; US$15&ndash;35 малая группа на английском &middot; US$60+ индивидуально</td><td>&euro;9.99 на человека, один платёж, доступ на год</td><td>Только входной билет</td></tr>
 <tr><td><b>Язык</b></td><td>Бесплатные: только испанский. Платные: английский, иногда португальский</td><td>Английский или испанский</td><td>Тот, на котором читаете</td></tr>
 <tr><td><b>Время</b></td><td>1,5&ndash;2 ч, фиксированный старт и темп</td><td>От 45 мин до 3 ч, в любое время с 9:00 до 17:00</td><td>Без ограничений &mdash; обычно 40 мин</td></tr>
 <tr><td><b>Навигация</b></td><td>Идёте за зонтиком</td><td>Офлайн-карта со всеми 22 остановками</td><td>Бумажная карта у ворот, если есть</td></tr>
@@ -322,24 +335,24 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <h2 id="audio">Вариант 2: аудиогид</h2>
 <p>Аудиогид — это экскурсия без группы. Вы скачиваете его заранее, заходите когда хотите и сами запускаете каждую историю, дойдя до склепа. В туре TouringBee по Реколете 22 остановки на офлайн-карте — от портика до аргентинского Нострадамуса, — и каждая история на три-пять минут написана профессиональным историком. Карта здесь важна как мало где ещё: между мраморными стенами мобильная связь умирает, и маршрут, который работает офлайн, — это разница между «нашли могилу смотрителя» и «плюнули и ушли».</p>
-<p>Теряете вы человека: некого спросить «а это что?» про склеп, которого нет на маршруте. Получаете — Реколету в 9:00 с пустым переулком Эвиты, свободу простоять двадцать минут у двери Руфины и пропустить вице-президента, и истории, которые можно переслушать. Озвучка на английском и испанском, одна оплата — доступ на год, и всё это дешевле входного билета. Билет в цену не входит — его продаёт только официальный сайт.</p>
+<p>Теряете вы человека: некого спросить «а это что?» про склеп, которого нет на маршруте. Получаете — Реколету в 9:00 с пустым переулком Эвиты, свободу простоять двадцать минут у двери Руфины и пропустить вице-президента, и истории, которые можно переслушать. Аудиогид на английском и испанском, один платёж даёт доступ на год, и стоит дешевле входного билета. Билет в цену не входит — его продаёт только официальный сайт.</p>
 <p><strong>Выбирайте этот вариант, если</strong> вы путешествуете сами, снимаете, идёте с детьми, ограничены во времени или просто хотите услышать истории, не стоя под чужим зонтиком.</p>
 
 <div class="product-card" id="audio">
 <img class="pc-img" width="1200" height="800" loading="lazy" decoding="async" src="../../img/product-recoleta.webp" alt="Аудиогид по кладбищу Реколета в приложении TouringBee">
 <div class="pc-body">
-<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; текст профессионального историка &middot; 22 остановки</div>
+<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; тексты профессиональных историков &middot; 22 остановки</div>
 <h3>Аудиогид по кладбищу Реколета<span class="badge">Мгновенный доступ</span></h3>
-<div class="pc-price">От &euro;9.99 <small>&middot; доступ на 1 год</small></div>
+<div class="pc-price">&euro;9.99 <small>&middot; доступ на 1 год</small></div>
 <ul class="features">
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l20 20"/><path d="M5 12.5a11 11 0 0 1 14 0"/><path d="M8.5 16a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/></svg> Полностью офлайн &mdash; на кладбище не нужны ни Wi-Fi, ни мобильный интернет</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Офлайн-карта с маршрутом &mdash; каждую историю вы включаете сами, стоя у склепа</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg> Языки аудиогида: <b>английский, испанский</b></li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="3" width="10" height="18" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Работает на iOS и Android</li>
-<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 остановки, примерно 1&ndash;2 часа в своём темпе</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 остановки, около 1,5 часа в своём темпе</li>
 </ul>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид</a>
+<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru&utm_source=recoletatourcom&utm_medium=article&utm_campaign=ru&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид</a>
 
 </div>
 </div>
@@ -357,21 +370,21 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <img src="../../img/product-recoleta.webp" width="96" height="96" loading="lazy" alt="Аудиогид TouringBee по кладбищу Реколета">
 <div class="ac-body">
 <h3>Слушайте истории прямо у склепов</h3>
-<p>22 остановки &middot; ~1,5 часа &middot; офлайн-карта &mdash; от &euro;9.99, одна оплата, без подписки.</p>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Скачать аудиогид</a>
+<p>22 остановки &middot; ~1,5 часа &middot; офлайн-карта &mdash; &euro;9.99, одна оплата, без подписки.</p>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru&utm_source=recoletatourcom&utm_medium=article&utm_campaign=ru&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид</a>
 </div>
 </div>
 
 
 <h2 id="cost">Сколько это стоит на самом деле</h2>
-<p>Двое на платной английской экскурсии: US$30&ndash;70 с билетами, 90 минут, одно утро. Двое с аудиогидом: два входных билета (около 24 000 ARS каждый для нерезидентов) плюс одна покупка за &euro;9.99 на один телефон с разветвителем для наушников — или два телефона и две покупки — и столько времени, сколько захотите. Двое сами по себе: два билета и сорок минут. Если в экскурсию включены билеты, она и аудиогид выходят примерно вровень; аудиогид выигрывает по гибкости и времени, экскурсия — по возможности задавать вопросы.</p>
+<p>Двое на платной английской экскурсии: US$30&ndash;70 с билетами, 90 минут, одно утро. Двое с аудиогидом: два входных билета (около 24 000 ARS каждый для нерезидентов) плюс два аудиогида по &euro;9.99 (по одному на человека) &mdash; и столько времени, сколько захотите. Двое сами по себе: два билета и сорок минут. Если в экскурсию включены билеты, она и аудиогид выходят примерно вровень; аудиогид выигрывает по гибкости и времени, экскурсия — по возможности задавать вопросы.</p>
 
 <h2 id="mistakes">Типичные ошибки</h2>
 <p>Ждать у ворот бесплатную английскую экскурсию, которой не существует. Забронировать групповой тур на 13:00 в январе и провести его в очереди к склепу Эвиты на жаре. Скачивать аудиогид <em>внутри</em> кладбища, где связи нет. Пройти экскурсию, пропустить второй круг и уже в самолёте понять, что боксёра вы так и не увидели. И классика: войти неподготовленным, увидеть Эвиту и уйти.</p>
 
 <h2 id="takeaway">Главное</h2>
 <p>Берите гида, если вам нужен человек. Берите аудиогид, если вам нужно кладбище. Берите оба, если можете. Что бы вы ни выбрали, будьте у ворот в 9:00 — час важнее формата.</p>
-<p>Аудиогид ждёт, когда будете готовы вы: 22 остановки, офлайн-карта, английский или испанский, одна оплата. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Скачать аудиогид &mdash; &euro;9.99</a></p>
+<p>Аудиогид ждёт, когда будете готовы вы: 22 остановки, офлайн-карта, английский или испанский, одна оплата. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru&utm_source=recoletatourcom&utm_medium=article&utm_campaign=ru&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить аудиогид &mdash; &euro;9.99</a></p>
 
 
 <h2 id="faq">Частые вопросы</h2>
@@ -392,7 +405,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <a href="/ru/evita-tomb/">Могила Эвы Перон: как найти &rarr;</a>
 </div>
 
-<p class="disclose">Часть ссылок на этой странице &mdash; партнёрские (GetYourGuide, Booking.com, TouringBee). Если вы бронируете по ним, мы получаем небольшую комиссию &mdash; для вас цена не меняется. На наши рекомендации это не влияет. Подробнее &mdash; в разделе <a href="/affiliate-disclosure.html">О партнёрских ссылках</a>.</p>
+<p class="disclose">Часть ссылок на этой странице &mdash; партнёрские (GetYourGuide, Booking.com, TouringBee). Если вы бронируете по ним, мы получаем небольшую комиссию &mdash; для вас цена не меняется. На наши рекомендации это не влияет. Подробнее &mdash; в разделе <a href="/affiliate-disclosure.html">«О партнёрских ссылках»</a>.</p>
 </article>
 </main>
 <footer><div class="wrap">
@@ -411,8 +424,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 </div></footer>
 <div class="stickybuy" id="stickybuy">
-<div class="p">Аудиогид по кладбищу Реколета <small>&middot; от &euro;9.99 &middot; офлайн &middot; 22 остановки</small></div>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить за &euro;9.99</a>
+<div class="p">Аудиогид по кладбищу Реколета <small>&middot; &euro;9.99 &middot; офлайн &middot; 22 остановки</small></div>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=ru&utm_source=recoletatourcom&utm_medium=article&utm_campaign=ru&utm_content=recoleta-cemetery-guided-vs-self-guided" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=ru">Купить за &euro;9.99</a>
 </div>
 <script>(function(){var b=document.getElementById('stickybuy');if(!b)return;function s(){if(window.scrollY>700){b.classList.add('show')}else{b.classList.remove('show')}}window.addEventListener('scroll',s,{passive:true});s();})();</script>
 <script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a36bfe69-78c2-4c67-acd7-1284975de5e5';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script>
