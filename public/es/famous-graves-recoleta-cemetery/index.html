@@ -208,6 +208,16 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .m-lbl{font:600 12px/1 system-ui,sans-serif;fill:#2b2520;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-dot{fill:#6b6052;stroke:#fff;stroke-width:1.5}.m-sub{font:500 11px/1 system-ui,sans-serif;fill:#5c5247;paint-order:stroke;stroke:#f6f2ea;stroke-width:4px;stroke-linejoin:round}
 .m-note{font:500 10px/1 system-ui,sans-serif;fill:#8f8373}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.chips span{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;color:var(--ink)}
+.tb-banner{display:flex;gap:18px;align-items:center;border:2px solid #0ea2e6;background:#f2f9fd;border-radius:12px;padding:16px 18px;margin:1.6em 0}
+.tb-banner img{width:132px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 auto}.tb-banner h3{margin:0 0 6px;font-size:19px}.tb-banner p{margin:0 0 12px;font-size:15px}.tb-banner .btn{margin:0}
+@media(max-width:560px){.tb-banner{flex-direction:column;align-items:flex-start}.tb-banner img{width:100%;height:150px}}
+.article .grid.why3>div,.article .grid.cmp3>div{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}.article .grid.why3 h3,.article .grid.cmp3 h3{margin:0 0 8px;font-size:17px}.article .grid.why3 p{margin:0;font-size:15px}
+.article .grid.cmp3 ul{margin:0 0 12px;padding-left:18px;font-size:15px}.article .grid.cmp3 .hi{background:#f2f9fd;border-color:#0ea2e6}.article .grid.cmp3 .btn{margin:0}
+.article ol.steps{counter-reset:s;list-style:none;padding:0}.article ol.steps li{counter-increment:s;position:relative;padding:0 0 0 44px;margin:0 0 12px}.article ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--brand,#0ea2e6);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.article ul.trust{list-style:none;padding:0}.article ul.trust li{padding:6px 0 6px 28px;position:relative}.article ul.trust li::before{content:"\2713";position:absolute;left:0;color:#0ea2e6;font-weight:700}
+.article p.note{background:var(--soft);border-left:3px solid #0ea2e6;padding:10px 14px;border-radius:0 8px 8px 0;font-size:15px}
+.r-lane{stroke:#e4dccb;stroke-width:1.5}.r-path{fill:none;stroke:#b23a2d;stroke-width:3;stroke-dasharray:7 5;stroke-linejoin:round}
 .facts{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:8px 20px;margin:1.6em 0}
 .facts .row{display:grid;grid-template-columns:180px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
 .facts .row:last-child{border-bottom:0}
@@ -256,7 +266,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 .bokun-widgets-cart-wrapper{position:fixed!important;top:auto!important;left:auto!important;right:16px!important;bottom:16px!important;margin:0!important;z-index:2147483000!important}
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Quién está enterrado en el Cementerio de la Recoleta: tumbas famosas y cómo encontrarlas", "description": "Who is buried in Recoleta Cemetery: presidents, Admiral Brown, Nobel laureates, writers, a boxer, a caretaker and Evita — how to recognise their tombs and where to find them.", "inLanguage": "es", "datePublished": "2026-10-21", "dateModified": "2026-10-21", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/brown-800.webp", "mainEntityOfPage": "https://recoletatour.com/es/famous-graves-recoleta-cemetery/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cuántos famosos están enterrados en el Cementerio de la Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "La Ciudad cuenta más de 200 argentinos notables en sus recorridos, entre ellos al menos 18 presidentes, en unas 4.600 bóvedas. Más de 90 bóvedas son monumentos históricos nacionales."}}, {"@type": "Question", "name": "¿Quién es la persona más famosa enterrada en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "Eva Perón, en la bóveda de la familia Duarte. Después de ella: los presidentes Sarmiento y Mitre, el almirante Guillermo Brown, el Nobel Luis Federico Leloir, la escritora Victoria Ocampo y el boxeador Luis Ángel Firpo."}}, {"@type": "Question", "name": "¿Juan Perón también está enterrado en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No. Juan Perón está enterrado en la quinta de su familia en San Vicente, en las afueras de Buenos Aires. En Recoleta solo descansa Eva, con su apellido de soltera, Duarte."}}, {"@type": "Question", "name": "¿Borges está enterrado en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No — Jorge Luis Borges está enterrado en Ginebra. Carlos Gardel está en la Chacarita, San Martín en la Catedral Metropolitana y el Nobel Bernardo Houssay en la Chacarita. Suelen aparecer por error en las listas de Recoleta."}}, {"@type": "Question", "name": "¿Cómo encuentro una tumba en particular?", "acceptedAnswer": {"@type": "Answer", "text": "Pide un mapa en la entrada, usa el Cristo central como brújula y sigue el croquis de esta página. Si prefieres caminar sin buscar, la audioguía TouringBee tiene 22 tumbas ya marcadas en un mapa offline y ordenadas para recorrerlas a pie."}}, {"@type": "Question", "name": "¿Las bóvedas están abiertas al público?", "acceptedAnswer": {"@type": "Answer", "text": "No. Cada bóveda es propiedad privada de una familia. Miras por las puertas y los vidrios desde el pasillo; nunca entras."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/es/"}, {"@type": "ListItem", "position": 2, "name": "Famous Graves", "item": "https://recoletatour.com/famous-graves-recoleta-cemetery/"}]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Quién está enterrado en el Cementerio de la Recoleta: tumbas famosas y cómo encontrarlas", "description": "Who is buried in Recoleta Cemetery: presidents, Admiral Brown, Nobel laureates, writers, a boxer, a caretaker and Evita — how to recognise their tombs and where to find them.", "inLanguage": "es", "datePublished": "2026-11-05", "dateModified": "2026-11-05", "author": {"@type": "Person", "name": "Eugene"}, "publisher": {"@type": "Organization", "name": "TouringBee", "url": "https://touringbee.com/"}, "image": "https://recoletatour.com/img/brown-800.webp", "mainEntityOfPage": "https://recoletatour.com/es/famous-graves-recoleta-cemetery/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Cuántos famosos están enterrados en el Cementerio de la Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "La Ciudad cuenta más de 200 argentinos notables en sus recorridos, entre ellos al menos 18 presidentes, en unas 4.600 bóvedas. Más de 90 bóvedas son monumentos históricos nacionales."}}, {"@type": "Question", "name": "¿Quién es la persona más famosa enterrada en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "Eva Perón, en la bóveda de la familia Duarte. Después de ella: los presidentes Sarmiento y Mitre, el almirante Guillermo Brown, el Nobel Luis Federico Leloir, la escritora Victoria Ocampo y el boxeador Luis Ángel Firpo."}}, {"@type": "Question", "name": "¿Juan Perón también está enterrado en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No. Juan Perón está enterrado en la quinta de su familia en San Vicente, en las afueras de Buenos Aires. En Recoleta solo descansa Eva, con su apellido de soltera, Duarte."}}, {"@type": "Question", "name": "¿Borges está enterrado en Recoleta?", "acceptedAnswer": {"@type": "Answer", "text": "No — Jorge Luis Borges está enterrado en Ginebra. Carlos Gardel está en la Chacarita, San Martín en la Catedral Metropolitana y el Nobel Bernardo Houssay en la Chacarita. Suelen aparecer por error en las listas de Recoleta."}}, {"@type": "Question", "name": "¿Cómo encuentro una tumba en particular?", "acceptedAnswer": {"@type": "Answer", "text": "Pide un mapa en la entrada, usa el Cristo central como brújula y sigue el croquis de esta página. Si prefieres caminar sin buscar, la audioguía TouringBee tiene 22 tumbas ya marcadas en un mapa offline y ordenadas para recorrerlas a pie."}}, {"@type": "Question", "name": "¿Las bóvedas están abiertas al público?", "acceptedAnswer": {"@type": "Answer", "text": "No. Cada bóveda es propiedad privada de una familia. Miras por las puertas y los vidrios desde el pasillo; nunca entras."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recoletatour.com/es/"}, {"@type": "ListItem", "position": 2, "name": "Famous Graves", "item": "https://recoletatour.com/famous-graves-recoleta-cemetery/"}]}]}
 </script>
 </head>
 <body>
@@ -265,7 +275,10 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="nav-wrap">
 <details class="menu"><summary>Guías <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 <div class="dropdown">
+<a href="/es/recoleta-cemetery-self-guided-walking-tour/">Recorrido por libre con la audioguía</a>
 <a href="/es/evita-tomb/">La tumba de Eva Perón: cómo encontrarla</a>
+<a href="/es/recoleta-cemetery-architecture/">Arte funerario &amp; símbolos</a>
+<a href="/es/recoleta-cemetery-history/">Historia del cementerio</a>
 <a href="/es/recoleta-cemetery-legends/">Las leyendas del Cementerio de la Recoleta</a>
 <a href="/es/famous-graves-recoleta-cemetery/">Quién está enterrado aquí: las tumbas famosas</a>
 <a href="/es/recoleta-cemetery-tickets/">Entradas, precio &amp; horarios</a>
@@ -284,9 +297,9 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <nav class="crumbs"><a href="/es/">Inicio</a> &rsaquo; Tumbas famosas</nav>
 <h1>¿Quién está enterrado en el Cementerio de la Recoleta? Las tumbas famosas &amp; cómo encontrarlas</h1>
 <p class="sub">Presidentes, un almirante irlandés, dos premios Nobel, un peso pesado que sacó a Jack Dempsey del ring de un golpe — y un cuidador. Quién descansa aquí, cómo reconocer la bóveda y dónde buscar.</p>
-<div class="byline"><span>Por <b>Eugene</b></span><span>Actualizado en <b>octubre de 2026</b></span><span>Lectura de <b>8 minutos</b></span></div>
+<div class="byline"><span>Por <b>Eugene</b></span><span>Actualizado en <b>noviembre de 2026</b></span><span>Lectura de <b>8 minutos</b></span></div>
 <div class="herobtns">
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar la audioguía</a>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar la audioguía</a>
 <a class="btn dark" href="/es/recoleta-cemetery-tickets/">Entradas &amp; horarios</a>
 <a class="btn ghost" href="https://www.getyourguide.com/la-recoleta-cemetery-l3890/?partner_id=0M4BUCG&utm_medium=travel_agent" target="_blank" rel="noopener sponsored">Reservar una visita guiada</a>
 </div>
@@ -296,7 +309,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <p class="lead">Lo primero que notas en Recoleta es que no parece un cementerio. Parece un barrio: calles, lotes en esquina, numeración, puertas de entrada. Después empiezas a leer los nombres en las puertas y entiendes que sí es un barrio &mdash; el barrio donde la Argentina guarda a sus presidentes, generales, científicos, escritores, un campeón de boxeo y un cuidador del cementerio que ahorró durante décadas para mudarse aquí.</p>
 
-<p>Esta página te ayuda a decidir qué tumbas vale la pena buscar: quién fue la persona, por qué importa, cómo es la bóveda y más o menos dónde está. Una vez adentro, la <a class="bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">audioguía TouringBee</a> une 22 de ellas en un recorrido listo: un mapa offline te lleva de bóveda en bóveda, y en cada puerta arranca su propia historia. Aquí tienes el reparto. Allá, la obra.</p>
+<p>Esta página te ayuda a decidir qué tumbas vale la pena buscar: quién fue la persona, por qué importa, cómo es la bóveda y más o menos dónde está. Una vez adentro, la <a href="/es/recoleta-cemetery-self-guided-walking-tour/">audioguía TouringBee</a> une 22 de ellas en un recorrido listo: un mapa offline te lleva de bóveda en bóveda, y en cada puerta arranca su propia historia. Aquí tienes el reparto. Allá, la obra.</p>
 
 <p>¿Todavía estás armando el viaje entero? Empieza por nuestra <a href="/es/">guía completa del Cementerio de la Recoleta</a> y después vuelve aquí por el quién es quién.</p>
 
@@ -306,7 +319,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="row"><div class="k">Los cinco famosos</div><div class="v"><strong>Eva Perón</strong> (bóveda Duarte) &middot; <strong>Domingo F. Sarmiento</strong> &middot; <strong>Bartolomé Mitre</strong> &middot; <strong>Almirante Guillermo Brown</strong> &middot; <strong>Luis Federico Leloir</strong> (Nobel de Química 1970).</div></div>
 <div class="row"><div class="k">Las leyendas</div><div class="v"><strong>Rufina Cambaceres</strong>, <strong>Liliana Crociati</strong> y su perro, el cuidador <strong>David Alleno</strong>. <a href="/es/recoleta-cemetery-legends/">Realidad vs leyenda &rarr;</a></div></div>
 <div class="row"><div class="k">No están aquí</div><div class="v">Juan Perón (San Vicente), Borges (Ginebra), Gardel (Chacarita), San Martín (Catedral), Houssay (Chacarita).</div></div>
-<div class="row"><div class="k">Cómo encontrarlos</div><div class="v">Unas 4.600 bóvedas, y los pasillos se parecen todos. En <strong>TouringBee</strong> las 22 tumbas que importan ya están marcadas en un mapa offline y unidas en un solo recorrido &mdash; 22 paradas &middot; ~1,5 h &middot; desde &euro;9.99.<br><a class="btn sm bokunButton" style="margin-top:10px" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía &rarr;</a></div></div>
+<div class="row"><div class="k">Cómo encontrarlos</div><div class="v">Unas 4.600 bóvedas, y los pasillos se parecen todos. En <strong>TouringBee</strong> las 22 tumbas que importan ya están marcadas en un mapa offline y unidas en un solo recorrido &mdash; 22 paradas &middot; ~1,5 h &middot; &euro;9.99.<br><a class="btn sm bokunButton" style="margin-top:10px" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía &rarr;</a></div></div>
 </div>
 
 <h2 id="map">Dónde están las tumbas principales: un croquis gratis</h2>
@@ -356,8 +369,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <img src="../../img/product-recoleta.webp" width="96" height="96" loading="lazy" alt="Audioguía TouringBee del Cementerio de la Recoleta">
 <div class="ac-body">
 <h3>Escucha las historias frente a las bóvedas</h3>
-<p>22 paradas &middot; ~1,5 h &middot; mapa offline &mdash; desde &euro;9.99, un solo pago, sin suscripción.</p>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía</a>
+<p>22 paradas &middot; ~1,5 h &middot; mapa offline &mdash; &euro;9.99, un solo pago, sin suscripción.</p>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía</a>
 </div>
 </div>
 
@@ -405,18 +418,18 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 <div class="product-card" id="audio">
 <img class="pc-img" width="1200" height="800" loading="lazy" decoding="async" src="../../img/product-recoleta.webp" alt="Audioguía del Cementerio de la Recoleta en la app TouringBee">
 <div class="pc-body">
-<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; escrito por un historiador profesional &middot; 22 paradas</div>
+<div class="pc-rating"><b style="color:var(--ink)">&#9733; 4.6 App Store</b> &middot; textos escritos por historiadores profesionales &middot; 22 paradas</div>
 <h3>Audioguía del Cementerio de la Recoleta<span class="badge">Acceso inmediato</span></h3>
-<div class="pc-price">Desde &euro;9.99 <small>&middot; acceso por 1 año</small></div>
+<div class="pc-price">&euro;9.99 <small>&middot; acceso por 1 año</small></div>
 <ul class="features">
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l20 20"/><path d="M5 12.5a11 11 0 0 1 14 0"/><path d="M8.5 16a6 6 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1"/></svg> 100% offline &mdash; adentro del cementerio no necesitas Wi-Fi ni datos</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Mapa offline con el recorrido &mdash; cada historia la inicias tú, de pie frente a la bóveda</li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg> Idiomas del audio: <b>inglés, español</b></li>
 <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="7" y="3" width="10" height="18" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg> Funciona en iOS y Android</li>
-<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 paradas, entre 1 y 2 horas a tu ritmo</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 22 paradas, alrededor de 1,5 horas a tu ritmo</li>
 </ul>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar la audioguía</a>
+<a class="btn bokunButton" style="flex:1;margin:0" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar la audioguía</a>
 
 </div>
 </div>
@@ -425,7 +438,7 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 
 <h2 id="takeaway">En resumen</h2>
 <p>Recoleta no es una lista de nombres famosos; es una ciudad donde los nombres son vecinos. Sarmiento al lado de sus rivales, Evita a pocos pasillos del general que derrocó a su marido, un cuidador entre los presidentes a los que les barrió la vereda. Lee las puertas, usa el Cristo como brújula y dale una hora y media.</p>
-<p>Y si quieres que cada una de estas personas te hable cuando llegas &mdash; el almirante, el boxeador, el Nobel de la salsa &mdash;, para eso está la audioguía. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía &mdash; 22 paradas &middot; offline &middot; &euro;9.99</a></p>
+<p>Y si quieres que cada una de estas personas te hable cuando llegas &mdash; el almirante, el boxeador, el Nobel de la salsa &mdash;, para eso está la audioguía. <a class="btn sm bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Consigue la audioguía &mdash; 22 paradas &middot; offline &middot; &euro;9.99</a></p>
 
 
 <h2 id="faq">Preguntas frecuentes</h2>
@@ -465,8 +478,8 @@ footer{background:#fff;color:var(--muted);font-size:14px;padding:44px 0;border-t
 </div>
 </div></footer>
 <div class="stickybuy" id="stickybuy">
-<div class="p">Audioguía del Cementerio de la Recoleta <small>&middot; desde &euro;9.99 &middot; offline &middot; 22 paradas</small></div>
-<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar &euro;9.99</a>
+<div class="p">Audioguía del Cementerio de la Recoleta <small>&middot; &euro;9.99 &middot; offline &middot; 22 paradas</small></div>
+<a class="btn bokunButton" href="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?lang=es&utm_source=recoletatourcom&utm_medium=article&utm_campaign=es&utm_content=famous-graves-recoleta-cemetery" data-src="https://widgets.bokun.io/online-sales/a36bfe69-78c2-4c67-acd7-1284975de5e5/experience/1155931?partialView=1&lang=es">Comprar &euro;9.99</a>
 </div>
 <script>(function(){var b=document.getElementById('stickybuy');if(!b)return;function s(){if(window.scrollY>700){b.classList.add('show')}else{b.classList.remove('show')}}window.addEventListener('scroll',s,{passive:true});s();})();</script>
 <script>/* Lazy-load Bokun engine only on first user interaction so it never blocks page load / Lighthouse */(function(){var l=0;function b(){if(l)return;l=1;var s=document.createElement('script');s.async=true;s.src='https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=a36bfe69-78c2-4c67-acd7-1284975de5e5';document.body.appendChild(s);}['mouseover','touchstart','scroll','keydown','pointerdown'].forEach(function(e){window.addEventListener(e,b,{once:true,passive:true});});})();</script>
