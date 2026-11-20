@@ -1,6 +1,6 @@
 # Recoleta Tour
 
-> Independent visitor guide to Recoleta Cemetery in Buenos Aires: how to find Eva Perón's tomb, the entry fee and hours (2026), a self-guided route through the maze, the legends and the funerary art, and respectful-visit etiquette — plus a self-guided offline audio tour by TouringBee (22 stops, English and Spanish). Site available in 8 languages: English, French, German, Spanish, Italian, Portuguese, Polish and Russian.
+> Independent visitor guide to Recoleta Cemetery in Buenos Aires: how to find Eva Perón's tomb, the entry fee and hours (2026), a self-guided route through the maze, the legends and the funerary art, and respectful-visit etiquette — plus a self-guided offline audio tour by TouringBee (22 stops, five audio languages). Site available in 8 languages: English, French, German, Spanish, Italian, Portuguese, Polish and Russian.
 
 This site is a TouringBee project. It is independent and not affiliated with the Cementerio de la Recoleta or the Government of the City of Buenos Aires. Some links are affiliate links (GetYourGuide, Booking.com, TouringBee); they never affect what is recommended.
 
@@ -11,6 +11,7 @@ This site is a TouringBee project. It is independent and not affiliated with the
 - [Eva Perón's tomb: how to find it](https://recoletatour.com/evita-tomb/): Where the Duarte vault is, what you'll see, and the 24-year journey of her body.
 - [Funerary art & symbols](https://recoletatour.com/recoleta-cemetery-architecture/): The four styles, the Egyptian and pre-Hispanic surprises, and a decoder for the owls, hourglasses and snakes on the doors.
 - [History of the cemetery](https://recoletatour.com/recoleta-cemetery-history/): From the friars' orchard of 1732 to the city of the dead: 1822, 1863, 1871, 1881 and what each date left behind for you to see.
+- [Is it worth visiting?](https://recoletatour.com/is-recoleta-cemetery-worth-visiting/): The honest case for and against, who should skip it, how long it really takes, and 12 things first-timers wish they'd known.
 - [The legends of Recoleta Cemetery](https://recoletatour.com/recoleta-cemetery-legends/): Rufina Cambaceres, Liliana and her dog, David Alleno — what's documented and what isn't.
 - [Who is buried here: the famous graves](https://recoletatour.com/famous-graves-recoleta-cemetery/): Presidents, Admiral Brown, Nobel laureates, writers, a boxer — how to recognise their tombs and where to look.
 - [Tickets, entry fee & hours](https://recoletatour.com/recoleta-cemetery-tickets/): The fee for foreign visitors, who goes free, how to pay, hours and the free tours.
@@ -23,7 +24,7 @@ This site is a TouringBee project. It is independent and not affiliated with the
 
 ## Audio tour
 
-- [Recoleta Cemetery self-guided audio tour (TouringBee)](https://touringbee.com/product/buenos-aires-recoleta-cemetery-audioguide/?wpam_id=40): offline map, 22 stops written by a professional historian, narrated in English and Spanish; explore the cemetery at your own pace.
+- [Recoleta Cemetery self-guided audio tour (TouringBee)](https://touringbee.com/product/buenos-aires-recoleta-cemetery-audioguide/?wpam_id=40): offline map, 22 stops written by a professional historian, audio in English, Spanish, French, Italian and Russian; explore the cemetery at your own pace.
 
 ## Languages
 
